@@ -31,3 +31,7 @@ include device/google/caimito/wifi/BoardConfig-wifi.mk
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 -include device/google/common/etm/6_1/BoardUserdebugModules.mk
 endif
+
+# Extracted vendor Blobs
+include vendor/google/tokay/BoardConfigVendor.mk
+

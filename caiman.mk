@@ -30,3 +30,6 @@ PRODUCT_MANUFACTURER := Google
 
 DEVICE_MANIFEST_FILE := \
 	device/google/caimito/manifest.xml
+
+# Extracted vendor Blobs
+$(call inherit-product, vendor/google/caiman/caiman-vendor.mk)
