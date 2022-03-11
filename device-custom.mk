@@ -10,3 +10,6 @@ PRODUCT_COPY_FILES += \
 
 # wireless_charger HAL service
 include device/google/gs-common/wireless_charger/wireless_charger.mk
+
+PRODUCT_PACKAGES += \
+    EuiccSupportPixelOverlay
