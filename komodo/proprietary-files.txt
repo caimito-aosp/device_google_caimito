@@ -3,12 +3,12 @@
 # product partition
 
 # AiAi
-product/priv-app/AICorePrebuilt-aicore_20240509.01_RC02/AICorePrebuilt-aicore_20240509.01_RC02.apk;PRESIGNED
-product/priv-app/DeviceIntelligenceNetworkPrebuilt-U.21_playstore_astrea_20240222.00_RC01/DeviceIntelligenceNetworkPrebuilt-U.21_playstore_astrea_20240222.00_RC01.apk;PRESIGNED
-product/priv-app/DevicePersonalizationPrebuiltPixel2024-U.21_P24_aiai_20240327.00_RC01/DevicePersonalizationPrebuiltPixel2024-U.21_P24_aiai_20240327.00_RC01.apk;PRESIGNED
+# product/priv-app/AICorePrebuilt-aicore_20240509.01_RC02/AICorePrebuilt-aicore_20240509.01_RC02.apk;PRESIGNED
+# product/priv-app/DeviceIntelligenceNetworkPrebuilt-U.21_playstore_astrea_20240222.00_RC01/DeviceIntelligenceNetworkPrebuilt-U.21_playstore_astrea_20240222.00_RC01.apk;PRESIGNED
+# product/priv-app/DevicePersonalizationPrebuiltPixel2024-U.21_P24_aiai_20240327.00_RC01/DevicePersonalizationPrebuiltPixel2024-U.21_P24_aiai_20240327.00_RC01.apk;PRESIGNED
 
 # Audio
-product/etc/ambient/matcher_tah.leveldb
+# product/etc/ambient/matcher_tah.leveldb
 product/etc/firmware/music_detector.descriptor
 product/etc/firmware/music_detector.sound_model
 product/etc/firmware/music_detector.sound_model_2
@@ -59,32 +59,32 @@ product/etc/sysconfig/pixel_experience_2024_midyear.xml
 product/etc/permissions/com.android.sdm.plugins.connmo.xml
 product/etc/permissions/com.android.sdm.plugins.dcmo.xml
 product/etc/permissions/com.android.sdm.plugins.diagmon.xml
-product/lib64/libdmengine.so;SYMLINK=product/priv-app/DMService/lib/arm64/libdmengine.so
-product/lib64/libdmjavaplugin.so;SYMLINK=product/priv-app/DMService/lib/arm64/libdmjavaplugin.so
-product/priv-app/CarrierSettings_signed_47.0.602606545/CarrierSettings_signed_47.0.602606545.apk;PRESIGNED
-product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
-product/priv-app/ConnMO/ConnMO.apk
-product/priv-app/DCMO/DCMO.apk
-product/priv-app/DMService/DMService.apk
+# product/lib64/libdmengine.so;SYMLINK=product/priv-app/DMService/lib/arm64/libdmengine.so
+# product/lib64/libdmjavaplugin.so;SYMLINK=product/priv-app/DMService/lib/arm64/libdmjavaplugin.so
+# product/priv-app/CarrierSettings_signed_47.0.602606545/CarrierSettings_signed_47.0.602606545.apk;PRESIGNED
+# product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
+# product/priv-app/ConnMO/ConnMO.apk
+# product/priv-app/DCMO/DCMO.apk
+# product/priv-app/DMService/DMService.apk
 product/priv-app/DiagMon/DiagMon.apk
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
-product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
+# product/priv-app/TetheringEntitlement/TetheringEntitlement.apk
 
 # Temperature sensor
 product/etc/sysconfig/firproximity.xml
-product/priv-app/HealthIntelligencePrebuilt-1762/HealthIntelligencePrebuilt-1762.apk;PRESIGNED
+# product/priv-app/HealthIntelligencePrebuilt-1762/HealthIntelligencePrebuilt-1762.apk;PRESIGNED
 
 # VZW
-product/app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
+# product/app/VZWAPNLib/VZWAPNLib.apk;PRESIGNED
 product/etc/permissions/com.android.omadm.service.xml
 product/etc/permissions/com.google.omadm.trigger.xml
 product/etc/permissions/com.verizon.apn.xml
 product/etc/permissions/com.verizon.services.xml
 product/etc/permissions/features-verizon.xml
 product/etc/sysconfig/allowlist_com.android.omadm.service.xml
-product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk;PRESIGNED
-product/priv-app/OemDmTrigger/OemDmTrigger.apk
-product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
+# product/priv-app/AppDirectedSMSService/AppDirectedSMSService.apk;PRESIGNED
+# product/priv-app/OemDmTrigger/OemDmTrigger.apk
+# product/priv-app/WfcActivation/WfcActivation.apk;PRESIGNED
 
 # system_ext partition
 
@@ -131,17 +131,17 @@ system_ext/etc/permissions/com.google.android.rilextension.xml
 system_ext/etc/permissions/com.google.euiccpixel.permissions.xml
 system_ext/etc/permissions/com.google.euiccpixel.xml
 system_ext/etc/permissions/google-ril.xml
-system_ext/framework/RadioConfigLib.jar
-system_ext/framework/google-ril.jar
-system_ext/priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
-system_ext/priv-app/ConnectivityThermalPowerManager/ConnectivityThermalPowerManager.apk
+# system_ext/framework/RadioConfigLib.jar
+# system_ext/framework/google-ril.jar
+# system_ext/priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
+# system_ext/priv-app/ConnectivityThermalPowerManager/ConnectivityThermalPowerManager.apk
 system_ext/priv-app/EuiccGoogleOverlay/EuiccGoogleOverlay.apk
 system_ext/priv-app/EuiccSupportPixel-P23/EuiccSupportPixel-P23.apk;PRESIGNED
 system_ext/priv-app/EuiccSupportPixel-P23/esim-full-v1.img
 system_ext/priv-app/EuiccSupportPixel-P23/Felica_Tag_66_Changer.apdu
 system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.apk;PRESIGNED
-system_ext/priv-app/RilConfigService/RilConfigService.apk
-system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED
+# system_ext/priv-app/RilConfigService/RilConfigService.apk
+# system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED
 system_ext/priv-app/ril-extension/ril-extension.apk;PRESIGNED
 
 # RIL
@@ -155,4 +155,4 @@ system_ext/priv-app/OemRilService/OemRilService.apk;PRESIGNED
 
 # VZW
 system_ext/etc/permissions/vzw_mvs_permissions.xml
-system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk;PRESIGNED
+# system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk;PRESIGNED
