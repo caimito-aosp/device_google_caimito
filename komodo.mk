@@ -19,7 +19,7 @@ TARGET_LINUX_KERNEL_VERSION := 6.1
 USE_SWIFTSHADER := false
 BOARD_USES_SWIFTSHADER := false
 
-$(call inherit-product, device/google/zumapro/aosp_common.mk)
+$(call inherit-product, device/google/zumapro/hentai_common.mk)
 $(call inherit-product, device/google/caimito/device-komodo.mk)
 
 PRODUCT_NAME := komodo
