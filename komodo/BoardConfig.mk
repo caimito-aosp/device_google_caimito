@@ -20,6 +20,15 @@ TARGET_SCREEN_DENSITY := 480
 BOARD_USES_GENERIC_AUDIO := true
 USES_DEVICE_GOOGLE_CAIMITO := true
 
+# Disable artifact path requirements
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
+
+# Allow duplicate blobs
+BUILD_BROKEN_DUP_RULES := true
+
+# PRODUCT_COPY_FILES directives.
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 include device/google/caimito/device-caimito-common.mk
 
 include device/google/zumapro/BoardConfig-common.mk
