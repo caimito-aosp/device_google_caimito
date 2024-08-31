@@ -21,6 +21,7 @@ BOARD_USES_SWIFTSHADER := false
 
 $(call inherit-product, device/google/zumapro/hentai_common.mk)
 $(call inherit-product, device/google/caimito/device-tokay.mk)
+$(call inherit-product, device/google/caimito/device-custom.mk)
 
 PRODUCT_NAME := tokay
 PRODUCT_DEVICE := tokay
