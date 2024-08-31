@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Gps Sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/gps/pixel/sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/gps/lsi/sepolicy
+
 # ANGLE - Almost Native Graphics Layer Engine
 PRODUCT_PACKAGES += \
     ANGLE
