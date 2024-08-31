@@ -24,12 +24,14 @@ PRODUCT_PACKAGES += \
 
 # Audio
 PRODUCT_PACKAGES += \
+    android.hardware.soundtrigger3-V2-ndk.vendor \
+    android.hardware.audio.core-V2-ndk.vendor \
     android.hardware.audio.core.sounddose-V2-ndk.vendor \
-    android.hardware.audio.sounddose-V2-ndk.vendor \
     libaudio_aidl_conversion_common_ndk.vendor \
     libaudioroutev2.vendor \
+    libaudioserviceexampleimpl \
+    libaudioaidlranges.vendor \
     libtinycompress \
-    libutils_binder.vendor
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -61,13 +63,6 @@ PRODUCT_PACKAGES += \
     libstagefright_xmlparser.vendor \
     libvendorgraphicbuffer
 
-# Confirmation UI
-PRODUCT_PACKAGES += \
-    android.hardware.confirmationui-V1-ndk.vendor \
-    android.hardware.confirmationui-lib.trusty \
-    android.hardware.confirmationui@1.0.vendor \
-    libteeui_hal_support.vendor
-
 # Contexthub
 PRODUCT_PACKAGES += \
     android.hardware.contexthub-V3-ndk.vendor \
@@ -77,6 +72,12 @@ PRODUCT_PACKAGES += \
 
 # GPS
 PRODUCT_PACKAGES += \
+    android.hardware.gnss@1.0.vendor \
+    android.hardware.gnss@1.1.vendor \
+    android.hardware.gnss@2.0.vendor \
+    android.hardware.gnss@2.1.vendor \
+    android.hardware.gnss.measurement_corrections@1.0.vendor \
+    android.hardware.gnss.measurement_corrections@1.1.vendor \
     liblzma.vendor \
     libunwindstack.vendor
 
@@ -91,12 +92,6 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor
 
-# Identity credential
-PRODUCT_PACKAGES += \
-    android.hardware.identity-V5-ndk.vendor \
-    android.hardware.identity-support-lib.vendor \
-    android.hardware.identity_credential.xml
-
 # Json
 PRODUCT_PACKAGES += \
     libjson
@@ -104,7 +99,6 @@ PRODUCT_PACKAGES += \
 # Nos
 PRODUCT_PACKAGES += \
     lib_android_keymaster_keymint_utils.vendor \
-    libkeymaster4support.vendor \
     libkeymint.vendor \
     libkeymint_support.vendor \
     libnos \
@@ -115,9 +109,7 @@ PRODUCT_PACKAGES += \
     libnos_feature \
     libnos_transport \
     nos_app_avb \
-    nos_app_identity \
     nos_app_keymaster \
-    nos_app_keymaster_ctdl \
     nos_app_weaver \
     pixelpowerstats_provider_aidl_interface-cpp.vendor
 
@@ -127,7 +119,8 @@ PRODUCT_PACKAGES += \
     libsqlite.vendor \
     libziparchive.vendor \
     modem_clock_manager.vendor \
-    modem_clock_manager_impl.vendor
+    modem_clock_manager_impl.vendor \
+    libmemunreachable.vendor
 
 # Sensors
 PRODUCT_PACKAGES += \
@@ -149,13 +142,13 @@ PRODUCT_PACKAGES += \
     android.frameworks.stats-V1-cpp.vendor \
     android.frameworks.stats-V1-ndk.vendor \
     android.hardware.authsecret-V1-ndk.vendor \
+    android.hardware.biometrics.common-V3-ndk.vendor \
+    android.hardware.biometrics.fingerprint-V3-ndk.vendor \
     android.hardware.gnss-V3-ndk.vendor \
     android.hardware.health-V1-ndk.vendor \
     android.hardware.input.common-V1-ndk.vendor \
     android.hardware.input.processor-V1-ndk.vendor \
-    android.hardware.keymaster@3.0.vendor \
-    android.hardware.keymaster@4.0.vendor \
-    android.hardware.keymaster@4.1.vendor \
+    android.hardware.keymaster-V4-ndk.vendor \
     android.hardware.neuralnetworks-V4-ndk.vendor \
     android.hardware.neuralnetworks@1.0.vendor \
     android.hardware.neuralnetworks@1.1.vendor \
@@ -186,10 +179,10 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0.vendor \
     android.hardware.thermal@2.0.vendor \
     android.hardware.weaver-V2-ndk.vendor \
-    android.hardware.wifi-V1-ndk.vendor \
     com.google.hardware.pixel.display-V9-ndk.vendor \
     hardware.google.ril_ext-V1-ndk.vendor
 
 # Misc
 PRODUCT_PACKAGES += \
-    libevent.vendor
+    libevent.vendor \
+    libcurl.vendor
