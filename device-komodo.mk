@@ -90,6 +90,12 @@ endif
 
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += ro.surface_flinger.ignore_hdr_camera_layers=true
 
+# Displayconfig
+PRODUCT_COPY_FILES += \
+	device/google/caimito/komodo/display/display_id_4619826904749956352.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4619826904749956352.xml \
+    device/google/caimito/komodo/display/display_id_4619827384439984896.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4619827384439984896.xml \
+    device/google/caimito/komodo/display/display_port_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_port_0.xml
+
 # Display OP HZ Config
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.primarydisplay.op.hs_hz=120 \
