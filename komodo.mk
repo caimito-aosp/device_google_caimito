@@ -33,5 +33,8 @@ PRODUCT_MANUFACTURER := Google
 DEVICE_MANIFEST_FILE := \
 	device/google/caimito/manifest.xml
 
+# Extracted vendor Props
+$(call inherit-product,  device/google/caimito/komodo/props.mk)
+
 # Extracted vendor Blobs
 $(call inherit-product, vendor/google/komodo/komodo-vendor.mk)
