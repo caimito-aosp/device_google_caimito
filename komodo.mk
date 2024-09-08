@@ -38,3 +38,9 @@ $(call inherit-product,  device/google/caimito/komodo/props.mk)
 
 # Extracted vendor Blobs
 $(call inherit-product, vendor/google/komodo/komodo-vendor.mk)
+
+# PixelApps
+TARGET_PREBUILT_PIXELAPPS := true
+PIXELAPPS_UDFPS := true
+PIXELAPPS_ULTRASONIC_UDFPS := true
+PIXELAPPS_OPTIONAL := true

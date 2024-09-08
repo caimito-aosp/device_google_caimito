@@ -426,3 +426,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PRODUCT_PROPERTIES += \
           ro.com.google.ime.kb_pad_port_b=9.6 \
           ro.com.google.ime.height_ratio=1.13
+
+# PixelApps overlays
+ifeq ($(TARGET_PREBUILT_PIXELAPPS), true)
+    PRODUCT_PACKAGES += \
+        SettingsGoogleOverlayKomodo \
+        SystemUIGoogleOverlayKomodo
+endif
+
+# PixelDisplayService overlay
+PRODUCT_PACKAGES += \
+    PixelDisplayServiceOverlayKomodo
