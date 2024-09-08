@@ -16,9 +16,6 @@
 */
 -->
 <resources>
-    <!-- Face prewiew scale -->
-    <item type="dimen" name="face_preview_scale">0.75</item>
-
     <!-- Udfps lottie position fix -->
     <dimen name="udfps_lottie_translate_y">-500dp</dimen>
 </resources>

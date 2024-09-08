@@ -25,6 +25,7 @@ TARGET_PREBUILT_PIXELAPPS := true
 PIXELAPPS_UDFPS := true
 PIXELAPPS_ULTRASONIC_UDFPS := true
 PIXELAPPS_OPTIONAL := true
+PIXELAPPS_FACE_UNLOCK := true
 
 $(call inherit-product, device/google/zumapro/hentai_common.mk)
 $(call inherit-product, device/google/caimito/device-komodo.mk)
